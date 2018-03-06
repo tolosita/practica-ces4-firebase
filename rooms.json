@@ -1,0 +1,11 @@
+{
+	"rooms" : [
+		{
+			"Id" : 1,
+			"Name" : "Room One",
+			"Capacity" : 12,
+			"Location" : "First Floor",
+			"Last_Clean_Up_Date" : "2018-01-01"
+		}
+	]
+}

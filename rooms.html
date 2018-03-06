@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rooms</title>
+  <script src="rooms.js"></script>
+</head>
+
+<body>
+  <div id="table">
+    <h1>Rooms</h1>
+    <input type="button" value="Listar" onclick="loadData()">
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Capacity</th>
+          <th>Location</th>
+          <th>Last Clean Up Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="list">
+
+      </tbody>
+    </table>
+  </div>
+  <div id="form" hidden>
+    <h1>Room</h1>
+    <input type="button" value="Guardar" onclick="saveData()">
+    <input type="reset" value="Atras" onclick="cancelData()">
+    <br>
+    <span>Id:</span>
+    <input type="text" id="id" name="id" placeholder="id">
+    <br>
+    <span>Name:</span>
+    <input type="text" id="name" name="name" placeholder="Name">
+    <br>
+    <span>Capacity:</span>
+    <input type="text" id="capacity" name="capacity" placeholder="capacity">
+    <br>
+    <span>Location:</span>
+    <input type="text" id="location" name="location" placeholder="location">
+    <br>
+    <span>Last Clean Up Date:</span>
+    <input type="text" id="lastcleanupdate" name="lastcleanupdate" placeholder="lastcleanupdate">
+    
+
+  </div>
+
+</body>
+
+</html>
